@@ -30,7 +30,7 @@ button:active {
 }
 
 #app-container{
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   background: #fff;
   padding: 20px;
@@ -38,7 +38,8 @@ button:active {
 }
 
 article {
-  margin: 15px;
+  margin: 30px 15px;
+  display: flex;
 }
 
 img{
@@ -52,7 +53,7 @@ img{
 }
 
 h6 {
-  display: inline-block;
+  display: inline;
   vertical-align: middle;
   font-size: 16px;
   margin: 0;
@@ -66,7 +67,17 @@ span {
   border-right: 3px solid #F4B350;
   margin: 0 10px;
   width: 50px;
-  display: inline-block;
+  display: inline;
   vertical-align: middle;
 
+}
+
+.usrImg {
+  display: inline;
+  position: absolute;
+  right: 45%;
+  margin: 20px 10px;
+  margin-top: -20px;
+  vertical-align: middle;
+  line-height: 50px;
 }
